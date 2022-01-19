@@ -1,3 +1,5 @@
+/* @import url("https://raw.githubusercontent.com/REDhead-Studios/SmartSchoolDarkMode/main/main.css"); */
+
 td[background] {
     visibility: hidden;
 }
@@ -49,6 +51,15 @@ body {
     margin-left: 10px !important;
     margin-right: 10px !important;
     margin-top: 5px !important;
+    width: fit-content !important;
+    opacity: 10%;
+}
+.modern-ui:hover .smsc-topnav:hover .topnav:hover, .smsc-topnav:hover .topnav:hover nav:hover {
+    opacity: 100%;
+}
+article, aside, footer, header, nav, section {
+    display: flex !important;
+    justify-content: center !important;
 }
 .color_snow_white {
     background-color: #3a3a3a !important;
